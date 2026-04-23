@@ -2,7 +2,7 @@
 
 Personal portfolio site built to showcase 4+ years of frontend work across enterprise platforms and startup environments.
 
-**Live → [sofia-portfolio.vercel.app](https://sofia-portfolio.vercel.app)** *(update after deploy)*
+**Live → [sofia-portfolio-sage.vercel.app](https://sofia-portfolio-sage.vercel.app)**
 
 ---
 
