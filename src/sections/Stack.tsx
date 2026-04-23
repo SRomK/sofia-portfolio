@@ -3,7 +3,7 @@ import {
   SiVuedotjs, SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss, SiSass, SiMui,
   SiChartdotjs, SiJest, SiSonar, SiGooglecloud, SiJenkins,
   SiPython, SiDjango, SiMysql, SiPostgresql, SiGit, SiBitbucket, SiJira, SiPostman,
-  SiGithubcopilot, SiPinia, SiAnthropic, SiOpenai, SiGooglegemini,
+  SiGithubcopilot, SiPinia, SiClaude, SiOpenai, SiGooglegemini,
 } from 'react-icons/si'
 import type { IconType } from 'react-icons'
 import { stack } from '../data/resume'
@@ -34,7 +34,7 @@ const iconConfig: Partial<Record<string, { icon: IconType; color: string }>> = {
   'Postman': { icon: SiPostman, color: '#FF6C37' },
   'GitHub Copilot': { icon: SiGithubcopilot, color: '#6e5494' },
   'Pinia': { icon: SiPinia, color: '#FFD859' },
-  'Claude': { icon: SiAnthropic, color: '#d97706' },
+  'Claude': { icon: SiClaude, color: '#d97706' },
   'ChatGPT': { icon: SiOpenai, color: '#10a37f' },
   'Gemini': { icon: SiGooglegemini, color: '#4285F4' },
 }
