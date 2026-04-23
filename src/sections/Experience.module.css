@@ -1,0 +1,218 @@
+.experience {
+  padding: 8rem 2rem;
+  padding-left: calc(2rem + 60px);
+  border-top: 1px solid var(--border);
+}
+
+.inner {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* ── Timeline container ── */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 2.5rem;
+}
+
+.companyBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Shared left column (holds badges + connecting line) ── */
+.timelineCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48px;
+  flex-shrink: 0;
+}
+
+.line {
+  width: 1px;
+  flex: 1;
+  min-height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ── Company header ── */
+.companyRow {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+
+.companyBadge {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: #1e1f26;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.companyMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.companyName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+
+.currentBadge {
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 2px;
+}
+
+/* ── Role block ── */
+.roleBlock {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.roleIconCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #1e1f26;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 1rem 0 0;
+}
+
+.roleIcon {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.roleContent {
+  flex: 1;
+  padding-bottom: 0;
+  min-width: 0;
+}
+
+/* ── Role header (clickable) ── */
+.roleHeader {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 0 0.75rem;
+  cursor: pointer;
+}
+
+.roleLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.roleName {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  transition: color 0.2s;
+}
+
+.roleNameCurrent {
+  color: var(--primary);
+}
+
+.roleMeta {
+  font-size: 0.72rem;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+}
+
+.toggleBtn {
+  font-size: 1.1rem;
+  color: #6b7280;
+  flex-shrink: 0;
+  line-height: 1;
+  padding: 0 2px;
+  transition: color 0.2s;
+}
+
+.roleHeader:hover .toggleBtn {
+  color: #fff;
+}
+
+/* ── Expanded content ── */
+.roleDetails {
+  overflow: hidden;
+  padding-bottom: 1.25rem;
+}
+
+.bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bullets li {
+  font-size: 0.93rem;
+  color: #9ca3af;
+  line-height: 1.6;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.bullets li::before {
+  content: '+';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 0.8rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  font-size: 0.68rem;
+  color: #9ca3af;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.22rem 0.6rem;
+  border-radius: 2px;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding-left: 2rem;
+  }
+}

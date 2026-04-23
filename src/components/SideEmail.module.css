@@ -1,0 +1,23 @@
+.email {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 8rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--fg-muted);
+  z-index: 200;
+  transition: color 0.2s;
+}
+
+.email:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .email {
+    display: none;
+  }
+}

@@ -1,0 +1,137 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+  padding-left: calc(2rem + 60px);
+}
+
+.inner {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-heading);
+  color: var(--fg);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
+}
+
+.titleLine {
+  display: block;
+}
+
+.titleLine:first-child {
+  color: var(--primary);
+  text-shadow:
+    0 0 30px var(--primary-glow),
+    0 0 60px var(--primary-glow);
+}
+
+.titleLine:last-child {
+  color: #d4d6e4;
+  margin-left: 2rem;
+}
+
+.summary {
+  max-width: 500px;
+  font-size: 1rem;
+  color: var(--fg-muted);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: #a855f7;
+  /* lila principal */
+  border: 1px solid #a855f7;
+  color: #0f0f0f;
+  /* texto oscuro para contraste */
+  font-size: 1.5rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+  text-decoration: none;
+}
+
+.cta:hover {
+  background: transparent;
+  color: #a855f7;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+  letter-spacing: 0.05em;
+  margin-top: 0.25rem;
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chevron {
+  color: var(--fg-muted);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 2rem;
+  }
+
+  .inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .stats {
+    flex-direction: row;
+    text-align: left;
+    gap: 2rem;
+  }
+}
