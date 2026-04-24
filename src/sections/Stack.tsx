@@ -3,7 +3,7 @@ import {
   SiVuedotjs, SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss, SiSass, SiMui,
   SiChartdotjs, SiJest, SiSonar, SiGooglecloud, SiJenkins,
   SiPython, SiDjango, SiMysql, SiPostgresql, SiGit, SiBitbucket, SiJira, SiPostman,
-  SiGithubcopilot, SiPinia, SiClaude, SiOpenai, SiGooglegemini,
+  SiGithubcopilot, SiPinia, SiClaude, SiOpenai, SiGooglegemini, SiVitest,
 } from 'react-icons/si'
 import type { IconType } from 'react-icons'
 import { stack } from '../data/resume'
@@ -21,6 +21,7 @@ const iconConfig: Partial<Record<string, { icon: IconType; color: string }>> = {
   'MUI': { icon: SiMui, color: '#007FFF' },
   'Chart.js': { icon: SiChartdotjs, color: '#FF6384' },
   'Jest': { icon: SiJest, color: '#C21325' },
+  'Vitest': { icon: SiVitest, color: '#6E9F18' },
   'SonarQube': { icon: SiSonar, color: '#4E9BCD' },
   'GCP': { icon: SiGooglecloud, color: '#4285F4' },
   'Jenkins': { icon: SiJenkins, color: '#D24939' },

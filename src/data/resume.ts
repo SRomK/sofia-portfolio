@@ -100,7 +100,7 @@ export const stack: StackCategory[] = [
   },
   {
     label: 'Testing & Quality',
-    items: ['Jest', 'SonarQube', 'CI/CD'],
+    items: ['Jest', 'Vitest', 'SonarQube', 'CI/CD'],
   },
   {
     label: 'Cloud & DevOps',
