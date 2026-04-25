@@ -2,10 +2,12 @@ import { useEffect } from 'react'
 import { motion, useMotionValue } from 'framer-motion'
 
 export default function Cursor() {
+  const isTouch = window.matchMedia('(pointer: coarse)').matches
   const x = useMotionValue(-100)
   const y = useMotionValue(-100)
 
   useEffect(() => {
+    if (isTouch) return
     const move = (e: MouseEvent) => {
       x.set(e.clientX)
       y.set(e.clientY)
@@ -13,6 +15,9 @@ export default function Cursor() {
     window.addEventListener('mousemove', move)
     return () => window.removeEventListener('mousemove', move)
   }, [x, y])
+
+  if (isTouch) return null
+
 
   return (
     <motion.div

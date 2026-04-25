@@ -27,7 +27,7 @@
   flex-direction: column;
   font-family: var(--font-heading);
   color: var(--fg);
-  font-size: 6rem;
+  font-size: clamp(3rem, 16vw, 6rem);
   font-weight: 900;
   line-height: 0.88;
   letter-spacing: -0.03em;
@@ -127,6 +127,10 @@
   .inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .titleLine:last-child {
+    margin-left: 0;
   }
 
   .stats {
