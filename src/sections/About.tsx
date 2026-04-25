@@ -59,7 +59,7 @@ export default function About() {
             I'm a frontend developer dedicated to turning ideas into precise, performant interfaces. I specialize in Vue.js and React, and I use AI tooling daily to accelerate delivery — without cutting corners on quality, architecture, or code review.
           </p>
           <p>
-            With 4 years in enterprise platforms and startup environments, I've learned to move fast without breaking things. My approach is to write code that the next developer — or future me — will be glad to inherit. {bio.openTo}.
+            With 4+ years in enterprise platforms and startup environments, I've learned to move fast without breaking things. My approach is to write code that the next developer — or future me — will be glad to inherit. {bio.openTo}.
           </p>
 
           <div className={styles.languages}>
