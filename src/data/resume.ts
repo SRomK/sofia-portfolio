@@ -32,10 +32,25 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
+    company: 'BBVA',
+    role: 'Frontend Developer',
+    detail: null,
+    period: 'May 2026 — Present',
+    bullets: [
+      'Own end-to-end delivery of user-facing features for BBVA ROAD and Risk AI Store, two Vue 3 + Vite SPAs used by Global Risk Management stakeholders across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
+      'Build and maintain reusable UI components (Vuetify + Tailwind CSS) shared across both applications on a common frontend archetype, reducing duplication and speeding up delivery of new modules.',
+      'Develop interactive dashboards and data visualizations (ApexCharts, Chart.js, AmCharts 5) for KPI tracking, plan-vs-target progress, and global capacity/FTE maps, turning raw program data into decision-ready views for directors.',
+      'Integrate frontend state (Pinia) and REST APIs (Axios) with backend and Jira services to keep backlog, epics, and MVP status in sync with real delivery progress.',
+      'Write and expand unit tests with Vitest, and contribute to CI/CD pipelines in GCP to ship changes safely and frequently across both applications.',
+      "Collaborate cross-functionally with Product, UX/UI, Backend and QA to align technical decisions with GRM's reporting and governance needs, including i18n support (Vue I18n) for multi-country rollout.",
+    ],
+    tags: ['Vue 3', 'Vite', 'Vuetify', 'Tailwind CSS', 'Pinia', 'ApexCharts'],
+  },
+  {
     company: 'BBVA Technology',
     role: 'Frontend Developer (Full-stack collaboration)',
     detail: null,
-    period: 'Jun 2025 — Present',
+    period: 'Jun 2025 — May 2026',
     bullets: [
       'Enhanced frontend performance in a complex financial web platform, improving responsiveness across critical workflows.',
       'Led performance optimizations by reducing unnecessary re-renders and tightening component lifecycle management.',
