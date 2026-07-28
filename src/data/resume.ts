@@ -32,7 +32,7 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    company: 'BBVA',
+    company: 'BBVA Technology',
     role: 'Frontend Developer',
     detail: null,
     period: 'May 2026 — Present',
