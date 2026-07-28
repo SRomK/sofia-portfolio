@@ -37,7 +37,7 @@ export const experience: ExperienceItem[] = [
     detail: null,
     period: 'May 2026 — Present',
     bullets: [
-      'Own end-to-end delivery of new features for BBVA ROAD and Risk AI Store, two Vue 3 + Vite SPAs used by Global Risk Management stakeholders across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
+      'Own end-to-end delivery of new features for BBVA ROAD and FACTORY AI, two Vue 3 + Vite SPAs used by Global Risk Management stakeholders across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
       'Build and maintain reusable UI components (Vuetify + Tailwind CSS) shared across both applications on a common frontend archetype, reducing duplication and speeding up delivery of new modules.',
       'Implement and maintain frontend integrations with internal bank REST APIs (Axios + Pinia state), and diagnose and resolve production bugs across both applications.',
       "Own the production release process for the team's developments, coordinating deployments through the bank's internal governance and change-management requirements.",
