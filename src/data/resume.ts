@@ -144,6 +144,26 @@ export type Project = {
 export const projects: Project[] = [
   {
     number: '01',
+    name: 'BBVA ROAD',
+    company: 'BBVA Technology',
+    description:
+      'Corporate hub for Global Risk Management, unifying governance, tracking and strategic reporting for risk transformation programs worldwide. Vue 3 + Vite SPA with ApexCharts/Chart.js KPI dashboards, AmCharts geodata capacity maps, Jira-integrated backlog management, and one-click PDF report generation across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
+    tags: ['Vue 3', 'Vite', 'Vuetify', 'ApexCharts', 'AmCharts', 'Pinia'],
+    url: null,
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640&q=80',
+  },
+  {
+    number: '02',
+    name: 'FACTORY AI',
+    company: 'BBVA Technology',
+    description:
+      'Internal AI assistant marketplace for BBVA Risk, where teams discover, rate and propose GPT-based tools to scale AI adoption across the department. Vue 3 + Vite SPA featuring a rich-text submission workflow (TinyMCE/Vue Quill), an admin dashboard for auditing ratings and feedback, and Vue I18n support for rollout across multiple countries.',
+    tags: ['Vue 3', 'Vite', 'Vuetify', 'Vue I18n', 'Pinia', 'TinyMCE'],
+    url: null,
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=640&q=80',
+  },
+  {
+    number: '03',
     name: 'BBVA Global Staffing Tool',
     company: 'BBVA Technology',
     description:
@@ -153,7 +173,7 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=640&q=80',
   },
   {
-    number: '02',
+    number: '04',
     name: 'Compliance Management Platform',
     company: 'BBVA Technology',
     description:
@@ -163,7 +183,7 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=640&q=80',
   },
   {
-    number: '03',
+    number: '05',
     name: 'Flight Ops Management Platform',
     company: 'Private Radar',
     description:
@@ -173,7 +193,7 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=640&q=80',
   },
   {
-    number: '04',
+    number: '06',
     name: 'Enterprise Campaign Suite',
     company: 'Kimia Group',
     description:
@@ -183,7 +203,7 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&q=80',
   },
   {
-    number: '05',
+    number: '07',
     name: 'Portfolio Website',
     company: 'Personal',
     description:
