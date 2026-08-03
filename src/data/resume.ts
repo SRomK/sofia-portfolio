@@ -147,7 +147,7 @@ export const projects: Project[] = [
     name: 'BBVA ROAD',
     company: 'BBVA Technology',
     description:
-      'Corporate hub for Global Risk Management, unifying governance, tracking and strategic reporting for risk transformation programs worldwide. Vue 3 + Vite SPA with ApexCharts/Chart.js KPI dashboards, AmCharts geodata capacity maps, Jira-integrated backlog management, and one-click PDF report generation across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
+      'Corporate hub for Global Risk Management, unifying governance, tracking and strategic reporting for risk transformation programs worldwide. Built as a Vue 3 + Vite SPA, the platform includes ApexCharts/Chart.js KPI dashboards, AmCharts-powered capacity maps, Jira-integrated backlog management, and one-click PDF reporting across Spain, Mexico, Turkey, Peru, Colombia and Argentina.',
     tags: ['Vue 3', 'Vite', 'Vuetify', 'ApexCharts', 'AmCharts', 'Pinia'],
     url: null,
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640&q=80',
@@ -157,8 +157,8 @@ export const projects: Project[] = [
     name: 'FACTORY AI',
     company: 'BBVA Technology',
     description:
-      'Internal AI assistant marketplace for BBVA Risk, where teams discover, rate and propose GPT-based tools to scale AI adoption across the department. Vue 3 + Vite SPA featuring a rich-text submission workflow (TinyMCE/Vue Quill), an admin dashboard for auditing ratings and feedback, and Vue I18n support for rollout across multiple countries.',
-    tags: ['Vue 3', 'Vite', 'Vuetify', 'Vue I18n', 'Pinia', 'TinyMCE'],
+      'Internal AI assistant marketplace for BBVA Risk, where teams discover, rate and propose GPT-based tools to scale AI adoption across the department. Vue 3 + Vite SPA featuring a structured submission workflow, an admin dashboard for auditing ratings and feedback, and Vue I18n support for rollout across multiple countries.',
+    tags: ['Vue 3', 'Vite', 'Vuetify', 'Vue I18n', 'Pinia'],
     url: null,
     image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=640&q=80',
   },
